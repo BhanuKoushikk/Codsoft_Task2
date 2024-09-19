@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-image: url(Img1.jpg);
+    background-size: 1540px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+#btns{
+    color: aliceblue;
+    margin:10px 80px 0px 70px;
+    font-size: 20px;
+    font-weight:400;
+}
+.fa-solid.fa-plane-departure.fa-3x{
+    color: white;
+}
+.search{
+    background-color: rgba(0, 0, 0, 0.316);
+    height:35px;
+    width: 250px;
+    border:1px solid black;
+    border-radius:25px;
+    color: rgba(240, 248, 255, 0.858);
+    margin:5px 0px 0px 190px;
+}
+.s_text{
+    margin: 7px 0px 0px 150px;
+}
+#s_btn{
+    background-color: rgba(255, 4, 4, 0);
+    border:none;
+    color: aliceblue;
+    width:230px;
+    margin-left:-130px;
+    height:35px;
+    margin-top:-7px;
+}
+#mg{
+    color:rgb(19, 214, 235);
+    margin:-25px 0px 0px 6px;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+  }
+.login{
+    background-color: rgba(0, 137, 155, 0.604);
+    height:40px;
+    width: 120px;
+    border:1px solid rgba(0, 0, 0, 0);
+    border-radius: 25px;
+    margin-left:10px;
+    margin-top:1px;
+}
+.fa-solid.fa-user.fa-beat.fa-xl{
+    color: white;
+    margin: 19px 15px 0px 20px;
+}
+.login span{
+    color:white;
+    font-size: 18px;
+}
+main{
+    display:flex;
+    flex-direction:row;
+    margin:10px;
+}
+.main_left{
+   height:640px;
+   width: 70px;
+   margin:1px;
+   display: flex;
+   flex-direction: column;
+   color: aliceblue;
+}
+.main_middle{
+    width:600px;
+    height:640px;
+    background-color: rgba(0, 0, 0, 0);
+    margin:1px;
+}
+.main_right{
+      width:850px;
+      height:640px;
+      margin:1px;
+}
+.square{
+    background-color: aliceblue;
+    height:250px;
+    width: 8px;
+    border:1px solid rgba(0, 0, 0, 0);
+    border-radius:2px;
+    margin:80px 0px 100px 30px;
+}
+#icons{
+    margin:25px;
+}
+.circles{
+    margin:50px 0px 0px 500px;
+    height:80px;
+    width: 90px;
+    display:flex;
+    flex-direction: column;
+}
+#cir{
+    margin:0px 3px 15px 10px;
+    height: 5px;
+    width:5px;
+    background-color: aliceblue;
+    border-radius:50%;
+}
+.row1,.row2,.row3,.row4{
+    display:flex;
+}
+.text_mm h1{
+    color: aliceblue;
+    font-family: "Tourney", sans-serif;
+    font-weight:900;
+    font-size: 60px;
+    letter-spacing:8px;
+}
+.text_mm h1 span{
+    font-family: "Tourney", sans-serif;
+    font-weight:100;
+    font-size: 80px;
+    letter-spacing:0px;
+    margin-left:20px;
+    background-color: rgba(0, 0, 0, 0.423);
+}
+.text_mm p{
+    margin:20px;
+    color: white;
+    line-height: 1.4;
+}
+.btn{
+    color: rgb(253, 253, 187);
+    font-size: 2em;
+    background-color: rgb(0, 213, 255);
+    width: 200px;
+    cursor: pointer;
+    margin-left: 100px;
+    box-shadow: 5px 5px 3px black;
+}
+.btn h4{
+    margin-left:30px;
+}
+.btn:hover{
+   color: black;
+}
+#tri{
+    width:0px;
+	height:0px;
+	border-top: 10px solid transparent;
+	border-right: 20px solid #ffffffcd;
+	border-bottom: 10px solid transparent;
+}
+.col1{
+    display: flex;
+    flex-direction:row;
+}
+.triangle1{
+    margin:-65px 0px 0px 400px; 
+}
+.triangle2{
+    margin:100px 0px 10px 700px; 
+}
+.boxes{
+    display: flex;
+    flex-direction:row;
+    height: 500px;
+    width: 832px;
+    margin-top:4px;
+}
+#box{
+    width: 250px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    margin:30px 0px 0px 20px;
+    display: flex;
+    flex-direction:column;
+}
+#box h5{
+    font-family: "Tourney", sans-serif;
+    font-weight:800;
+    font-size: 30px;
+    letter-spacing:0px;
+    margin-left:20px;
+}
+.box1 h5{
+    margin: -1px 0px 0px 0px;
+    padding: 5px;
+}
+.box2 h5{
+    margin: -1px 0px 0px 0px;
+    padding: 5px;
+    padding-left: 15px;
+}
+.box3 h5{
+    margin: -1px 0px 0px 0px;
+    margin-left:2px;
+    padding: 5px;
+    padding-left: 45px;
+}
+#box p{
+    margin:10px;
+}
+.bttn{
+    height: 35px;
+    width: 150px;
+    background-color: black;
+    color:rgb(255, 255, 255);
+    font-size:25px;
+    padding-top:1px;
+    padding-left: 35px;
+    margin-left: 30px;
+}
+#bx1{
+    margin-top: 50px;
+}
+#bx2{
+    margin-top: 33px;
+}
+#bx3{
+    margin-top: 48px;
+}
